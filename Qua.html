@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="1tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <title>Quà</title>
+    <style>
+        @media screen and (max-width: 980px) {
+        .container{
+            height: 60vh;
+            width: 47vw;
+            position: absolute;
+            top: 50vh;
+            left: 50vw;
+            transform: translate(-50%, -50%);
+            perspective: 1000px;
+        }
+        }
+        @media screen and (max-width: 700px) {
+        .container{
+            height: 60vh;
+            width: 66vw;
+            position: absolute;
+            top: 50vh;
+            left: 50vw;
+            transform: translate(-50%, -50%);
+            perspective: 1000px;
+        }
+        }
+        @media screen and (max-width: 400px) {
+        .container{
+            height: 60vh;
+            width: 109vw;
+            position: absolute;
+            top: 54vh;
+            left: 50vw;
+            transform: translate(-50%, -50%);
+            perspective: 1000px;
+        }
+        }
+        @media screen and (max-width: 300px) {
+        .container{
+            height: 45vh;
+            width: 136vw;
+            position: absolute;
+            top: 54vh;
+            left: 50vw;
+            transform: translate(-50%, -50%);
+            perspective: 1000px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input type="button" value="Click Me" style="font-weight: bold;">
+        <div class="box">
+            <div class="card" id="front"><img src="T2.png"></div>
+            <div class="card" id="back"><p>Ánh Tuyết<br><span style="font-size: 23px;">25/04/2002</span><br><span style="font-size: 20px;">Chúc mừng sinh nhật em<br>Mong mọi điều tốt đẹp nhất sẽ đến với em<br><i class="fas fa-heart"></i> Love you <i class="fas fa-heart"></i></span></p></div>
+            <div class="card" id="left"><img src="T1.png"></div>
+            <div class="card" id="right"><img src="T1.png"></div>
+            <div class="card" id="top"><img src="tonton.png"></div>
+            <div class="card" id="bottom"><img src="tonton.png"></div>
+        </div>
+        <a href="index.html"><input type="button" value="Back" style="font-weight: bold; top: 500px"></a>
+    </div>
+</body>
+</html>
